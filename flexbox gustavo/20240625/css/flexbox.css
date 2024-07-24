@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+header, nav, main, aside, footer {
+    padding: 1rem;
+}
+header {
+    width: 100%;
+    background-color: orange;
+}
+nav {
+    width: 100%;
+    background-color: darkred;
+}
+aside {
+    background-color: green;
+    flex-grow: 1;
+}
+main {
+    background-color: hsla(300, 100%, 25%, 0.475);
+    flex-grow: 2;
+}
+footer {
+    background-color: brown;
+    width: 100%;
+}

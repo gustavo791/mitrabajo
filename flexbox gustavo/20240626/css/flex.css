@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+header, nav, aside, main, footer {
+    padding: 1rem;
+    min-height: 60px;
+}
+header {
+    background-color: orange; 
+    width: 100%;
+    margin-bottom: 8px;
+}
+nav {
+    background-color: brown;
+    width: 100%;
+    margin-bottom: 8px;
+    min-height: 32px;
+}
+aside {
+    background-color: green;
+    flex-grow: 1;
+    margin-right: 8px;
+}
+main {
+    background-color: blueviolet;
+    width: 70%; 
+}
+footer {
+    background-color: blue;
+    width: 100%;
+    margin-top: 8px;
+}
+main section {
+    display: flex;
+    border: white solid 1px;
+    padding: 1rem;
+}
+main article {
+    border: yellow 1px dotted;
+}
+#sect_one {
+    flex-wrap: wrap;
+}
+#sect_one article {
+    width: 100%;
+}   
+#sect_two {
+    justify-content: space-evenly;
+}
+
+    

@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header, nav, main, aside, footer {
+    padding: 8px;
+    border-radius: 1rem;
+    min-height: 4rem;
+    border: dashed 2px gray;
+    width: 500px;
+    margin: 0 auto; /*centrar horiz*/
+}
+header {
+    background-color: #b4913d;
+}
+nav {
+    background-color: #1c0945;
+}
+main {
+    background-color: #46798a;
+}
+aside {
+    background-color: #295f71;
+}
+footer {
+    background-color: aqua;
+}

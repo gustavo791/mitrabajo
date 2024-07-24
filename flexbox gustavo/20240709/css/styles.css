@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    border: blue dashed 3px;
+    height: 400px;
+    /* align-items: stretch; *default* */
+    justify-content: space-between;
+}
+header section {
+    display: flex;
+    border: red solid 3px;
+    width: 23%;
+}
+header article {
+    width: 30px;
+    height: 30px;
+    border: green dotted 1px;
+}
+#uno { 
+    flex-direction: row;
+}
+#dos {
+    flex-direction: row-reverse;
+}
+#tres {
+    flex-direction: column; align-items: center;
+}
+#cuatro {
+    flex-direction: column-reverse; align-items: end;
+}

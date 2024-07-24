@@ -1,0 +1,62 @@
+/* styles.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: green;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 10px 0 0 0;
+}
+
+/* Main section styles */
+main {
+    padding: 20px;
+}
+
+.mi-pagina {
+    margin-bottom: 20px;
+}
+
+/* Content section styles */
+.contenido {
+    text-align: left; /* Align text to the left */
+}
+
+.contenido ul {
+    list-style-position: inside; /* Optional: to keep bullets inside the container */
+    padding-left: 0; /* Optional: to remove default padding */
+    margin: 0; /* Optional: to remove default margin */
+}
+
+.contenido li {
+    margin-bottom: 10px; /* Optional: space between items */
+}
+
+/* Footer styles */
+footer {
+    background-color: green;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer h3 {
+    margin: 0;
+}

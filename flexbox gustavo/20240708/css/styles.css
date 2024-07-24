@@ -1,0 +1,42 @@
+section {
+display: flex;
+border: red 2px solid;
+padding: 8px;
+}
+article {
+    border: blue 1px dotted;
+    width: 50px;
+    min-height: 50px; 
+}
+#_1a {
+    justify-content: flex-start;
+}
+#_2b {
+    justify-content: flex-end;
+}
+#_3c {
+    justify-content: center; 
+}
+#s_four {justify-content: space-between;}
+#s_four {justify-content: space-around;}
+#s_four {justify-content: space-evenly;}
+
+nav {
+    display: flex;
+    height: 300px;
+    align-items: stretch; /* defauit*/
+    justify-content: space-between;
+    border: solid greenyellow 2px;
+}
+nav section {
+    width: 20px;
+}
+nav_uno{
+    align-items: flex-start;
+}
+#nav_dos {
+    align-items: flex-end;
+}
+#nav_tre {
+    align-items: flex-centr;
+}
